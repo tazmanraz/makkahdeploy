@@ -1,0 +1,324 @@
+body {
+    font-family: "Montserrat";
+    font-size: 400;
+  }
+  
+  #title {
+    background-color: #000;
+    background-image: url('images/firebg3.jpg'); 
+    color: white;
+  }
+
+  #title button{
+    width: 200px;
+    margin: 2% 0.5%;
+  }
+  
+  .container-fluid {
+    padding: 10% 15% 10%;
+  }
+  
+  a:link{
+    color:white;
+  }
+
+  a:visited{
+    color:white;
+  }
+
+  /* #title h1 {
+    color: #d1ab56;
+  } */
+
+  h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .svg-props{
+    width:25px;
+    height: auto;
+    margin-left: 1.5%;
+    fill: orange;
+  }
+
+  .svg-props2{
+    width:15%;
+    height: auto;
+    margin-right: 5%;
+  }
+
+  .svg-logo{
+    min-width:450px;
+    max-width: 800px;
+    height: auto;
+    margin: 1% 0% 1% 0%;
+  }
+
+  .svg-small{
+    width:25%;
+    height: auto;
+  }
+
+  /* navigation bar */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0px 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+  }
+  
+  .linebreak {
+    border-top: 3px solid #fff;
+    width: 15%;
+  }
+
+  /* download buttons */
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* title images */
+  #title{
+    padding-top:5%;
+  }
+
+  .title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+  }
+
+  
+  /* Features */
+  #features {
+    padding: 7% 5%;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23dfd3c3' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    position: relative;
+  }
+
+  .icons{
+    width:30%;
+    height: auto;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  #features i {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  #features i:hover {
+    color: #ff4c68;
+  }
+  
+  #features h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  #features p {
+    color: #8f8f8f;
+  }
+  
+  /* Signature Dishes */
+  #menu {
+    /* padding: 5%; */
+    text-align: center;
+    background-color: #ea5455;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%23f07b3f' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    color: #fff;
+  }
+  
+
+  #menu .container-fluid {
+    padding: 3% 5% 5%;
+  }
+
+  /* Press */
+  #press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* Pricing */
+  #order {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  
+  .order-icons {
+    width:75%;
+    height: auto;
+  }
+  
+  /* Call to action */
+  
+  #cta {
+    background-color: #ff4c68;
+    color: white;
+  
+    text-align: center;
+  }
+  
+  #cta h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .container-fluid2 {
+    padding: 7% 15% 7%;
+  }
+
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* footer */
+  
+  #footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15% 7%;
+  }
+  
+  #footer p {
+    padding-top: 2%;
+    color: grey;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+  
+    .title-image {
+      transform: rotate(0deg);
+      position: static;
+    }
+  }
+  
+  /* extra test */
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  /* #MiCarousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 38px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 38px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 38px -13px rgba(0, 0, 0, 0.75);
+  } */
+  .carousel-img {
+    background-color: #000;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    -webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    opacity: 0.8;
+  }
+  
+  .div-r {
+    padding: 40px;
+  }
+  
+  .carousel-title {
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .carousel-pagination {
+    background-color: #000 !important;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 100%;
+    position: relative;
+    bottom: -50px;
+    opacity: 0.5;
+  }
+  
+  .carousel-pagination.active {
+    opacity: 1;
+  }
+  
+  .carousel-controls {
+    display: none;
+  }
+  
+  .img1 {
+    background-image: url(images/food/kabab.jpg);
+  }
+  
+  .img2 {
+    background-image: url(images/food/naan2.jpg);
+  }
+  
+  .img3 {
+    background-image: url(images/food/biryani.jpg);
+  }
+
+
+    .vl {
+      border:         none;
+      border-left:    1px solid hsla(200, 10%, 50%,100);
+      height:         100vh;
+      width:          1px;      
+    }
