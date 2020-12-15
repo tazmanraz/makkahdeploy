@@ -10,7 +10,7 @@ const partners = [
     }, 
     {
         id: 2,
-        name: "VP",
+        name: "Victoria Park",
         tel: "416-693-2222",
         ritual:"https://ritual.co/",
         uber: "https://www.ubereats.com/ca/toronto/food-delivery/makkah-restaurant-east-york/VQJpZCpMT4-d1wCNZD9m9Q",

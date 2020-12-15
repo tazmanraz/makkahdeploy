@@ -1,8 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
-import Carousel from 'react-bootstrap/Carousel';
-import Button from 'react-bootstrap/Button';
+
 
 import Menu from "./Menu";
 import Order from "./Order";
@@ -12,9 +11,8 @@ function App() {
     return (
         <div className="App">
             <div>
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
 
-                    {/* <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"> */}
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
                     <Navbar.Brand href="#home"><img src="images/logos/small-logo.svg" alt="makkah" className="svg-small"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarSupportedContent" />
                     <Navbar.Collapse id="navbarSupportedContent">
@@ -22,8 +20,7 @@ function App() {
                             <Nav.Link href="#">HOME</Nav.Link>
                             <Nav.Link href="#order">ORDER</Nav.Link>
                             <Nav.Link href="#menu">MENU</Nav.Link>
-                            <Nav.Link href="#">ABOUT</Nav.Link>
-                            <Nav.Link href="#">CONTACT</Nav.Link>
+                            <Nav.Link href="#contact">CONTACT</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -42,16 +39,11 @@ function App() {
                             Victoria Park</a>
                         </h3>
 
-
                         <a href="#order"><button type="button" className="btn btn-dark btn-lg download-button"><img src="images/icons/order.svg" alt="order pin" className="svg-props2" />ORDER NOW</button></a>
                         <a href="#menu"><button type="button" className="btn btn-success btn-lg download-button" href="#menu"><img src="images/icons/menu.svg" alt="menu button" className="svg-props2" />MENU</button></a>
 
-
                     </div>
                 </section>
-
-
-
 
                 <section id="features">
 
@@ -64,40 +56,49 @@ function App() {
                         <div className="col-lg-4 feature-box">
                             <img src="images/icons/tandoor.svg" alt="tandoor" className="icons" />
                             <h3>Authentic Desi Food</h3>
-                            <p>Enjoy a diverse array of Indian and Pakistani dishes. Our expert chefs have decades of sub-continental dishes cookery experiences. Enjoy fresh naan on demand and specialty meats that you can only be truly experienced with our authentic tandoor charcoal oven.</p>
+                            <p>Enjoy a diverse array of Indian, Pakistani, and Bangladeshi dishes. Our expert chefs have decades of sub-continental dishes cookery experiences. Enjoy fresh naan on demand and specialty meats that you can only be truly experienced with our authentic tandoor charcoal oven.</p>
                         </div>
                         <div className="col-lg-4 feature-box">
                             <img src="images/icons/truck.svg" alt="cater" className="icons" />
                             <h3>Catering</h3>
                             <p>Have a party or wedding in mind? We have been in the catering business for years and offer reasonable rates for per head for events. Trust exprience and flavour. Contact us for more information.</p>
                         </div>
-                    </div>
-
+                    </div>                   
                 </section>
 
-
-
-
                 <section id="menu">
-                    
+                <h2>FEATURED DISHES</h2>
                     <Menu />
-
                 </section>
 
                 <section id="order">
-
                     <Order />
-
                 </section>
 
-
-
-
-                <section id="cta">
+                <section id="contact">
                     <div className="container-fluid2">
                         <h3>Reach out to us</h3>
                         <div className="iframe-container">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/F22SLuMfySQ?start=172&end=245" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div>
+                         <div className="container-fluid2">
+                            <a href="https://www.facebook.com/makkah.danforth/" target="_blank">
+                                <img src="images/icons/facebook.svg" alt="drop pin" className="svg-props" />
+                            </a>
+                            <a href="https://www.instagram.com/makkahrestaurant/" target="_blank">
+                                <img src="images/icons/instagram.svg" alt="drop pin" className="svg-props" />
+                            </a>  
+                            <a href="mailto:makkahdanforth@gmail.com" target="_blank">
+                                <img src="images/icons/email.svg" alt="drop pin" className="svg-props" />
+                            </a>
+                            </div>  
+                            <hr></hr>
+                        
+                        <footer>© 2020 Makkah Restaurant
+                        <br></br> Website created by Imtiaz Miah
+                        </footer>
+
                         </div>
                     </div>
                 </section>
